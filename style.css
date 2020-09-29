@@ -12,22 +12,24 @@ h1{
   
 }
 
-p{
+.txtzone{
   font-size: 16px;
   font-family: Sans-serif;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
   transition-duration: 0.5s;
+  background-color: #f5f5dc;
+  width: 300px;
+  border-radius: 6px;
+  transform: skewY(2deg)
 
 }
 
-p:hover{
-  color: #dddddd;
+.txtzone:hover{
+  background-color: #dddddd;
   transition: color 0.5s;
 }
-
-
 
 
 div{
@@ -38,30 +40,15 @@ div{
 
 
 div:hover{
-  width: 500px;
+  width: 400px;
   transition: width 0.5s;
 }
-
-
-
-.bally{
-  background-color: #f5f5dc;
-  width: 300px;
-  border-radius: 6px;
-  transform: skewY(2deg)
-}
-
-
-
-
 
 
 .text{
   background-color: #f5f5dc;
   
 }
-
-
 
 
 .divback1{
@@ -85,7 +72,7 @@ border-radius: 150px;
 
 .divback4{
  background-image: linear-gradient(#07d173,#072239 );
-border-radius: 150px;
+ border-radius: 150px;
 }
 
 @media (max-width: 600px)
